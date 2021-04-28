@@ -1,0 +1,29 @@
+{
+    "name": "pqtouch",
+    "description": "touch support for javascript controls with virtual rendering. works by monkey patching jQueryUI mouse prototpye.",
+    "version": "1.0.1",
+    "main": "pqtouch.js",
+    "author": {
+        "name": "Paramvir Dhindsa",
+        "url": "http://www.paramquery.com/"
+    },
+    "license": "MIT",
+    "devDependencies": {}, 
+    "dependencies": {},
+    "peerDependencies": {
+        "jquery": ">=2.2.1",        
+        "jquery-ui-pack": "^1.12.3"                
+    },
+    "keywords": [
+        "touch", 
+        "monkey patch",
+        "jqueryui mouse",
+        "virtual rendering"
+    ],
+    "files": [
+        "pqtouch.js",
+        "pqtouch.min.js",
+        "MIT-LICENSE.txt",
+        "README.txt"
+    ]
+}
